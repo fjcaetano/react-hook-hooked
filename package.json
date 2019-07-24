@@ -1,0 +1,20 @@
+{
+  "name": "react-hook-hooked",
+  "version": "1.0.0",
+  "description": "A nifty little HOC to add hooks to your React components",
+  "author": "Flávio Caetano (@fjcaetano)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "react": "^16.8.6",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23"
+  }
+}
