@@ -12,7 +12,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "build:check": "jest && prettier --check '**/*.{js,ts,tsx}'"
+    "lint": "prettier --check 'src/**/*'"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
