@@ -5,6 +5,10 @@
   "author": "Flávio Caetano (@fjcaetano)",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fjcaetano/react-hook-hooked.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest"
