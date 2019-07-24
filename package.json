@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,6 +16,7 @@
     "typescript": "^3.5.3"
   },
   "devDependencies": {
-    "@types/react": "^16.8.23"
+    "@types/react": "^16.8.23",
+    "jest": "^24.8.0"
   }
 }
