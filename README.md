@@ -1,4 +1,4 @@
-react-hook-hooked
+react-hook-hooked [![Build Status][1]](https://travis-ci.org/fjcaetano/react-hook-hooked) [![codecov][2]](https://codecov.io/gh/fjcaetano/react-hook-hooked)
 ---
 
 A nifty little HOC to add hooks to your React components.
@@ -90,3 +90,7 @@ export default hooked<Props, Hooked>(myHook, ({ name }: Props) => name)(MyCompon
 
 This way, externally your MyComponent will expect only `title` as its props. By default, `hooked`'s
 extractor is a passthru function that sends the received props to the hook.
+
+
+[1]: https://travis-ci.org/fjcaetano/react-hook-hooked.svg?branch=master
+[2]: https://codecov.io/gh/fjcaetano/react-hook-hooked/branch/master/graph/badge.svg

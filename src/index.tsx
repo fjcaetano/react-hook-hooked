@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const passThru = <TArgs extends any>(args: TArgs) => args;
 
@@ -9,9 +9,9 @@ const passThru = <TArgs extends any>(args: TArgs) => args;
  */
 const hooked = <Props extends Object, HookRet, HookArgs = Props>(
   hook: (args: HookArgs) => HookRet,
-  extractArgs: (props: Props) => HookArgs = passThru as any
+  extractArgs: (props: Props) => HookArgs = passThru as any,
 ) => (WrappedComponent: React.ComponentType<Props & HookRet>) => (
-  props: Props
+  props: Props,
 ) => <WrappedComponent {...props} {...hook(extractArgs(props))} />;
 
 export default hooked;
