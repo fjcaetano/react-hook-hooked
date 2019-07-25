@@ -8,5 +8,6 @@
     "jsx": "react",
     "esModuleInterop": true,
     "lib": ["es2015"],
+    "inlineSourceMap": true
   }
 }
