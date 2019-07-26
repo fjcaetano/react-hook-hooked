@@ -1,4 +1,4 @@
-react-hook-hooked [![Build Status][1]](https://travis-ci.org/fjcaetano/react-hook-hooked) [![codecov][2]](https://codecov.io/gh/fjcaetano/react-hook-hooked)
+react-hook-hooked [![Build Status][1]](https://travis-ci.org/fjcaetano/react-hook-hooked) [![codecov][2]](https://codecov.io/gh/fjcaetano/react-hook-hooked) [![npm][3]](https://www.npmjs.com/package/react-hook-hooked)
 ---
 
 A nifty little HOC to add hooks to your React components.
@@ -94,3 +94,4 @@ extractor is a passthru function that sends the received props to the hook.
 
 [1]: https://travis-ci.org/fjcaetano/react-hook-hooked.svg?branch=master
 [2]: https://codecov.io/gh/fjcaetano/react-hook-hooked/branch/master/graph/badge.svg
+[3]: https://img.shields.io/npm/v/react-hook-hooked
