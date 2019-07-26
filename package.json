@@ -1,10 +1,17 @@
 {
   "name": "react-hook-hooked",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nifty little HOC to add hooks to your React components",
   "author": "Flávio Caetano (@fjcaetano)",
   "license": "MIT",
-  "keywords": ["react", "hook", "hoc", "compose", "react-native", "recompose"],
+  "keywords": [
+    "react",
+    "hook",
+    "hoc",
+    "compose",
+    "react-native",
+    "recompose"
+  ],
   "homepage": "https://github.com/fjcaetano/react-hook-hooked.git",
   "private": false,
   "repository": {
