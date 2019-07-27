@@ -1,6 +1,6 @@
 {
   "name": "react-hook-hooked",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A nifty little HOC to add hooks to your React components",
   "author": "Flávio Caetano (@fjcaetano)",
   "license": "MIT",
