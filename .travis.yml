@@ -20,8 +20,9 @@ after_success:
   - codecov
 
 deploy:
+  skip_cleanup: true
   provider: npm
-  email: NPM_EMAIL
+  email: $NPM_EMAIL
   api_key:
     secure: TT45vX3jIbe6YcnFE7veInsbCS46hMHdTPh8AjorJ43eHUoRLSa5ISnr/q8E2ge2nCIo7T0eUKlXpwBmojjgTvzqkCbu+XZCysHkSLHo+KpDvMm19qeLdxhQ7FNEt5HhO0c2H4+rMJ5pGoteuQ+0nC6vmbgENex/q7WdV9gcK4o7IsBWrWXl44vC3yReYyRTEOfSSHmQCPi64R4FRCgVtSIkShNmp5qoVQa9bLelz/G2wXpSbp1H4NZu6s+u0ejXQbGUskOtQ9DyjkWESKJH2kC0uBRSWcCo6ifWge5iyhKRUJTbbUMQNRX+ZotTqkdugUXtEBrx6lEgcJxOEJXiiQMdIAm3VceTw3GzdZ6PragJ1qNGev+flvx6ASatOt+AJkDPUDwI4FOm03Nlsq/DQ2qr0to1+NpkOAxRCnbq8tI4cgCIwQFf8r+GQLnNAlA58fMESse00lnS1n2jR+qmth5sOjSvKH6tevJmgzq4dLoGlJWpBH1lYTQQKE+D03eT8fcFT/dTWMt4mAHXONeOT57F7DqMXtRj0pDzQVnQoCfOxuRd63uzp70ilpRQ+h/l5UBK/bsAlYYkYPW8yaN3URJPaiggG7Tpv/+v99/IlrvziG+hOThL5LmMUakDYvS0EakEI01DB3tsWMdlNEMZfC5SaQK34jjMtcCvI5s7I40=
   on:

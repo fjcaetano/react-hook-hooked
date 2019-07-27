@@ -25,6 +25,7 @@
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist/"],
   "dependencies": {
     "react": "^16.8.6"
   },
