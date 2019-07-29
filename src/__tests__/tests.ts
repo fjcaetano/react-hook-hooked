@@ -1,7 +1,7 @@
-const hooked = require('../../dist').default;
+import hooked from '..';
 
-const noop = () => {};
-const props = { foo: 'bar', xpto: 123 };
+const noop: any = jest.fn(() => {});
+const props: any = { foo: 'bar', xpto: 123 };
 
 describe('handle props', () => {
   it('passes received props to the component', () => {
@@ -49,7 +49,7 @@ describe('args extractor', () => {
       expect(args).toEqual(props);
     });
 
-    hooked(hook, func)(noop)();
+    hooked(hook, func)(noop)({});
 
     expect(hook).toHaveBeenCalled();
     expect(func).toHaveBeenCalled();
@@ -63,7 +63,7 @@ describe('hook', () => {
       expect(args).toEqual(props);
     });
 
-    hooked(hook, func)(noop)();
+    hooked(hook, func)(noop)({});
 
     expect(hook).toHaveBeenCalled();
     expect(func).toHaveBeenCalled();
@@ -72,7 +72,7 @@ describe('hook', () => {
   it('return values as component props', () => {
     const hook = jest.fn(() => props);
 
-    const result = hooked(hook)(noop)();
+    const result = hooked(hook)(noop)({});
 
     expect(result.props).toEqual(props);
     expect(hook).toHaveBeenCalled();
